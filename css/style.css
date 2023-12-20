@@ -1,0 +1,145 @@
+body {
+    background-color: #1F2039;
+    font-family: Arial;
+    color: white;
+}
+
+div, p {
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    
+    border-style: solid;
+    border-width: 6px;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px white;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    color: white;
+}
+
+.logo {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styles pour les images pour avoir une bonne taille adaptée */
+.img {
+    max-width: 600px;
+    height: auto;
+}
+
+.imgtocenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    height: auto;
+}
+
+/* Styles pour le menu */
+.menu ul {
+    list-style-type: none; /* Enlève les 'points' des ul */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black; /* Couleur du fond de menu*/
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu li a:hover {
+    background-color: #111; /* Couleur du fond de survol */
+}
+
+
+/* Flexbox */
+.conteneur_rowWrapped {
+	display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.conteneur_rowUnwrapped {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.conteneur_column {
+	display: flex;
+    flex-direction: column;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.video{
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+
+thead {
+    background-color: black;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.contact_form {
+    border: none;
+}
+
+.send {
+    background-color: blue;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 0px black;
+}
